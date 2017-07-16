@@ -1,0 +1,98 @@
+/*.content_Temp{*/
+  /*height:100%*/
+/*}*/
+html *{
+	font-family: "consolas",Lato,"Microsoft Jhenghei",WenQuanYi Micro Hei,"Microsoft YaHei",Aril,sans-serif;
+}
+.padding{
+	padding: 10px;
+}
+.borderBottom{
+	border-bottom:1px solid #ddd
+}
+.firstRow{
+	border-bottom: 1px dashed #dbdbdb;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.margin10{
+	margin-top: 10px;
+    margin-bottom: 10px
+}
+.uploaderBtn{display:inline-block; position:relative; overflow:hidden;}
+.uploaderBtn input[type='file']{position:absolute; right:0; top:0; font-size:100px; opacity:0; filter:alpha(opacity=0);}
+.topTool{
+	margin:10px 0;
+}
+.img-responsive{
+	width: 100%;
+	margin: 0 auto;
+}
+.codeTime{
+	background: #ddd
+}
+ul{
+	padding: 0;
+	list-style: none;
+}
+.list li:before {
+    display: inline-block;
+    content: "";
+    width: .4em;
+    height: .4em;
+    margin-right: .5em;
+    margin-bottom: .11em;
+    border: 1px solid #afafaf;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #afafaf;
+
+}
+.list li{
+	line-height: 28px;
+}
+.main-footer .fa{
+	padding-right:0.25em;
+}
+.marginImg{
+	margin: 0.5em auto;
+}
+.borderLeft{
+	border-left: 4px solid rgba(147, 181, 224, 0.4);
+}
+.aboutMe{
+	font-size: 1.2em
+}
+.marginTopMid{
+	margin-top: 2em
+}
+.paddingLR{
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.paddingTb10{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.bg-white{
+	background: white
+}
+.playerBox{
+	text-align: center;
+	width: 100%;
+	margin:0 auto;
+	max-width: 350px;
+}
+.timeline .time-label>span {
+    font-weight: 600;
+    padding: 5px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.playbox-mini{
+	height: 50px;
+}
+.img-maxWidth{
+	max-width: 100%;
+}
